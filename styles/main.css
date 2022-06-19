@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #F1CD96;
+  /* color: wheat; */
+}
+
+.respect {
+  display: flex;
+  box-shadow: 0 1px 30px rgb(134, 133, 133);
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #fff;
+  width: 1100px;
+  height: 650px;
+}
+
+.respect-women {
+  position: relative;
+  padding: 50px 40px;
+  width: 440px;
+  height: 650px;
+  background-color: #484956;
+  color: white;
+}
+
+.respect-women-title {
+  margin: 0;
+  font-size: 34px;
+  line-height: 1.5;
+
+}
+
+.respect-women-text {
+  margin: 0;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.respect-women_line {
+  display: inline-block;
+  width: 67px;
+  height: 5px;
+  background-color: #E37B62;
+  border: none;
+}
+
+.circle_img {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+.circle_img a{
+  text-decoration: none;
+  color: white;
+}
+
+.circle_img_hanson {
+  width: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+  box-shadow: 0px 0px 15px 1px black;
+}
+
+.circle_img span {
+  font-size: 20px;
+}
+
+.about-respect {
+  padding: 50px 40px;
+}
+
+.about-respect_letters {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.about-respect p {
+  margin: 0;
+  width: 550px;
+  font-size: 22px;
+}
+
+.about-respect p+p {
+  margin-top: 30px;
+}
+
+.footer {
+  border-top: #e6e6e8 solid 1px;
+  box-shadow: 0 -2px #e6e6e8;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footer time {
+  font-size: 20px;
+}
+
+.footer-img_message {
+  display: flex;
+  align-items: center;
+}
+
+.comment {
+  margin-right: 10px;
+}
+
+.footer-img_message span {
+  font-size: 20px;
+  color: rgb(208, 197, 197);
+}
+
+.more_menu {
+  margin-left: 20px;
+}
